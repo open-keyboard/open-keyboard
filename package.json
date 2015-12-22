@@ -12,6 +12,10 @@
   },
   "author": "Carl X. Su <bcbcarl@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/open-keyboard/open-keyboard/issues"
+  },
+  "homepage": "https://github.com/open-keyboard/open-keyboard#readme",
   "devDependencies": {
     "babel-core": "^6.3.21",
     "babel-plugin-transform-runtime": "^6.3.13",
