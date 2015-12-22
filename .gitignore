@@ -1,0 +1,14 @@
+# Node.js
+node_modules
+npm-debug.log
+
+# isparta
+/coverage/
+
+# PHP Composer
+/vendor/
+tests/_output/*
+
+# Browserify
+/dist/
+browserify-cache.json

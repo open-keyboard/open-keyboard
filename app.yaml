@@ -1,0 +1,27 @@
+application: open-keyboard
+version: 1
+runtime: php55
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /app\.js
+  static_files: dist/app.js
+  upload: dist/app\.js
+
+- url: /.*
+  static_files: src/index.html
+  upload: src/index\.html
+
+# For PHP
+#- url: /.*
+#  script: src/api/main.php
+
+skip_files:
+- ^(coverage/.*)
+- ^(node_modules/.*)
+- ^(vendor/.*)
